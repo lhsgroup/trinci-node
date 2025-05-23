@@ -15,7 +15,7 @@ clap = { version = "3.1.0", features = ["cargo"] }
 toml = "0.5.8"
 simplelog = "0.12.0"
 hex = "0.4.3"
-serde-value = { git = "https://github.com/lhsgroup/serde-value", branch = "helper_macro" }
+serde-value = { git = "https://github.com/lhsgroup/serde-value.git" }
 serde_bytes = "0.11.5"
 # base58 for network name calculation
 bs58 = "0.4.0"
